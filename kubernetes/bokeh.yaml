@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: bokeh
-        image: gcr.io/cloud-solutions-images/dashboard-demo@sha256:bbb8428a18e853b947254665340ba8387674c483e3d247e42ffd14f2f06f2ed0
+        image: gcr.io/cloudassgn3/cloud_assgn_test3@sha256:aaac61687555a73d24222044d17fe993660a031c4314a2998fd25c40ac62493c
         ports:
         - containerPort: 5006
         env:
